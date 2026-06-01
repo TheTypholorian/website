@@ -11,7 +11,8 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Minecraft';
-    background: rgb(10, 34, 51);
+    line-height: 22px;
+    background: rgb(7, 25, 38);
     color: white;
 }
 
@@ -32,6 +33,13 @@ html, body {
     max-height: 0.5in;
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.padding {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5in;
 }
 
 .hero-image {
@@ -85,13 +93,15 @@ html, body {
     gap: 1rem;
     width: 100%;
     text-align: center;
-    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background: rgb(10, 34, 51);
 }
 
 .content-section .left,
 .content-section .right {
     text-align: left;
-    max-width: 4in;
+    max-width: 5in;
 }
 
 .content-section .left *,
@@ -105,6 +115,7 @@ html, body {
     padding: 8px;
     border-radius: 8px;
     font-size: large;
+    text-decoration: none;
 }
 
 .center {
