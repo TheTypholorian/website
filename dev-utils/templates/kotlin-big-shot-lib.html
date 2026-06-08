@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <title>typho.net</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/header.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  </head>
+  <body>
+    <div class="padding"></div>
+    <div class="padding"></div>
+
+    <div class="content-section">
+      <h1>Kotlin Big Shot Lib Template Generator</h1>
+    </div>
+
+    <div class="content-section">
+      <div class="form-section">
+          <label for="group">Group:</label>
+          <input type="text" id="group" value="net.typho" pattern="[a-z_.\-]+" required>
+          <br>
+
+          <label for="id">ID:</label>
+          <input type="text" id="id" value="example_mod" required>
+          <br>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" value="Example Mod" required>
+          <br>
+
+          <label for="authors">Authors:</label>
+          <input type="text" id="authors" value="The Typhothanian" required>
+          <br>
+
+          <label for="description">Description:</label>
+          <input type="text" id="description" value="A cool example mod" required>
+          <br>
+
+          <label for="license">License:</label>
+          <input type="text" id="license" value="MIT License" required>
+          <br>
+
+          <label for="class_name">Class Name:</label>
+          <input type="text" id="class_name" value="ExampleMod" required>
+          <br>
+
+          <label for="modrinth_slug">Modrinth Slug:</label>
+          <input type="text" id="modrinth_slug" value="example-mod" required>
+          <br>
+
+          <br>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <button id="download">Download Template</button>
+    </div>
+
+    <script type="module">
+      import { parse, stringify } from "https://esm.sh/smol-toml";
+
+      function template(text, values) {
+        return text.replace(/\$\{([^}]+)\}/g, (match, path) => {
+            const val = path.split(".").reduce(
+                (obj, part) => obj?.[part],
+                values
+            );
+
+            return val === undefined ? match : val;
+        });
+      }
+
+      async function process() {
+        let groupDash = document.getElementById("group").value.trim().replaceAll('.', '/')
+        let groupDot = groupDash.replaceAll('/', '.')
+
+        let id = document.getElementById("id").value.trim()
+        let name = document.getElementById("name").value.trim()
+        let authors = document.getElementById("authors").value.trim()
+        let description = document.getElementById("description").value.trim()
+        let license = document.getElementById("license").value.trim()
+        let cls = document.getElementById("class_name").value.trim()
+        let modrinthSlug = document.getElementById("modrinth_slug").value.trim()
+
+        let zipResponse = await fetch("kotlin-big-shot-lib.zip")
+        let zipBuffer = await zipResponse.arrayBuffer()
+
+        let zip = await JSZip.loadAsync(zipBuffer)
+        let newZip = new JSZip()
+
+        let entries = Object.keys(zip.files)
+
+        let templateValues = {
+          template: {
+            group: {
+              dash: groupDash,
+              dot: groupDot
+            },
+            id: id,
+            name: name,
+            authors: authors,
+            description: description,
+            license: license,
+            modrinth_slug: modrinthSlug,
+            class: cls
+          }
+        }
+
+        for (let i = 0; i < entries.length; i++) {
+          let path = entries[i]
+          let entry = zip.files[path]
+
+          if (entry.dir) {
+            newZip.folder(template(path, templateValues))
+            continue
+          }
+
+          newZip.file(template(path, templateValues), template(await entry.async("string"), templateValues))
+        }
+
+        let blob = await newZip.generateAsync({ type: "blob" })
+
+        let blobUrl = URL.createObjectURL(blob)
+        let link = document.createElement("a")
+
+        link.href = blobUrl
+        link.download = id + ".zip"
+        link.click()
+
+        URL.revokeObjectURL(blobUrl)
+      }
+
+      document.getElementById("download").addEventListener("click", process)
+    </script>
+  </body>
+</html>
