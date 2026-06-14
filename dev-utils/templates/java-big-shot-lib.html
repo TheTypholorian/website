@@ -12,7 +12,7 @@
     <div class="padding"></div>
 
     <div class="content-section">
-      <h1>Kotlin Big Shot Lib Template Generator</h1>
+      <h1>Java Big Shot Lib Template Generator</h1>
     </div>
 
     <div class="content-section">
@@ -50,7 +50,7 @@
           <br>
 
           <label for="github">GitHub:</label>
-          <input type="text" id="github" value="TheTypholorian/kotlinMultiloaderTemplate" required>
+          <input type="text" id="github" value="TheTypholorian/javaMultiloaderTemplate" required>
           <br>
 
           <br>
@@ -88,7 +88,7 @@
         let modrinthSlug = document.getElementById("modrinth_slug").value.trim()
         let github = document.getElementById("github").value.trim()
 
-        let zipResponse = await fetch("kotlin-big-shot-lib.zip")
+        let zipResponse = await fetch("java-big-shot-lib.zip")
         let zipBuffer = await zipResponse.arrayBuffer()
 
         let zip = await JSZip.loadAsync(zipBuffer)
