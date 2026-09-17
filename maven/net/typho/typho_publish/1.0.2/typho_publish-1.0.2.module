@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "typho_publish",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "typho_publish-1.0.2.jar",
+          "url": "typho_publish-1.0.2.jar",
+          "size": 8072,
+          "sha512": "589fc209552bd11f76ac5a0e5ca7d47660d544c71056b3ff96444d18155588c0eb894838c53079140430713b134badbc8c24c62fff2284561dba52a8a24ba7da",
+          "sha256": "0971e9591553cbf70e117ecb98e863787627dadbfa333ebf0a260334cc3c9aa2",
+          "sha1": "eeb1bc3b669ed7d3120529322a435bf7d744f777",
+          "md5": "07893c2d0b65114ceab225577321c5f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "typho_publish-1.0.2.jar",
+          "url": "typho_publish-1.0.2.jar",
+          "size": 8072,
+          "sha512": "589fc209552bd11f76ac5a0e5ca7d47660d544c71056b3ff96444d18155588c0eb894838c53079140430713b134badbc8c24c62fff2284561dba52a8a24ba7da",
+          "sha256": "0971e9591553cbf70e117ecb98e863787627dadbfa333ebf0a260334cc3c9aa2",
+          "sha1": "eeb1bc3b669ed7d3120529322a435bf7d744f777",
+          "md5": "07893c2d0b65114ceab225577321c5f7"
+        }
+      ]
+    }
+  ]
+}
