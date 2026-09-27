@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "big_shot.common",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "big_shot.common-1.0.0.jar",
+          "url": "big_shot.common-1.0.0.jar",
+          "size": 84803,
+          "sha512": "b474f407e462600d37bb5b3d8c16f0d3aec9b60fdbb4d3b3c870bf7e7885f2f6b44cf610169aa4957010ffdb6c8d232d489ebdf9a698efa2050c99fe9737b0ae",
+          "sha256": "b283359a55bbcb788adaf475694ce019e643509834ba101f31b047b28be21936",
+          "sha1": "0e64ef214c91db972f51fbf80f04f7264672954b",
+          "md5": "ac0a45d5f25e04091fe6e0c24dc87fda"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.typho",
+          "module": "asm_util",
+          "version": {
+            "requires": "1.3.5"
+          }
+        },
+        {
+          "group": "net.typho",
+          "module": "data_util",
+          "version": {
+            "requires": "1.3.4"
+          }
+        },
+        {
+          "group": "org.semver4j",
+          "module": "semver4j",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "big_shot.common-1.0.0.jar",
+          "url": "big_shot.common-1.0.0.jar",
+          "size": 84803,
+          "sha512": "b474f407e462600d37bb5b3d8c16f0d3aec9b60fdbb4d3b3c870bf7e7885f2f6b44cf610169aa4957010ffdb6c8d232d489ebdf9a698efa2050c99fe9737b0ae",
+          "sha256": "b283359a55bbcb788adaf475694ce019e643509834ba101f31b047b28be21936",
+          "sha1": "0e64ef214c91db972f51fbf80f04f7264672954b",
+          "md5": "ac0a45d5f25e04091fe6e0c24dc87fda"
+        }
+      ]
+    }
+  ]
+}
