@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "misc_util",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "misc_util-1.0.0.jar",
+          "url": "misc_util-1.0.0.jar",
+          "size": 21054,
+          "sha512": "26646f626370cbdf1731e5fc6877381f50ad4e3dbf4b92c665f02714620b456c77107f6b89a1facd10bbc323696182a9ba76c15b157b8a1e3cd65fddf09f3244",
+          "sha256": "2d91bded6e0a2ed9b70e519a5dba9b73fd27fbdccc1cfcab28b19137a1ba2c3b",
+          "sha1": "3a71e0f07f0ffbe8e945cf02a8346417d6ed88e4",
+          "md5": "3e727777600516b103c474a418926736"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "misc_util-1.0.0.jar",
+          "url": "misc_util-1.0.0.jar",
+          "size": 21054,
+          "sha512": "26646f626370cbdf1731e5fc6877381f50ad4e3dbf4b92c665f02714620b456c77107f6b89a1facd10bbc323696182a9ba76c15b157b8a1e3cd65fddf09f3244",
+          "sha256": "2d91bded6e0a2ed9b70e519a5dba9b73fd27fbdccc1cfcab28b19137a1ba2c3b",
+          "sha1": "3a71e0f07f0ffbe8e945cf02a8346417d6ed88e4",
+          "md5": "3e727777600516b103c474a418926736"
+        }
+      ]
+    }
+  ]
+}
