@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "typho_publish",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "typho_publish-1.0.4.jar",
+          "url": "typho_publish-1.0.4.jar",
+          "size": 9086,
+          "sha512": "d07dcd57999a91ff0a60869dba9b44693f50e5977b3bde9acdd98fbfa963371a26f1858001a1fb05e7e80005c649e847f05cd8a44296111233eb929828fe3cda",
+          "sha256": "3d177f6d658b4ebbdbce8d9178b3082b2e8d7945a60d3bee87eb79003dedf33f",
+          "sha1": "600495686f3542d195f0a539a5705b871fefdd0a",
+          "md5": "0c87b30a289f40aab54bca591297fd08"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "typho_publish-1.0.4.jar",
+          "url": "typho_publish-1.0.4.jar",
+          "size": 9086,
+          "sha512": "d07dcd57999a91ff0a60869dba9b44693f50e5977b3bde9acdd98fbfa963371a26f1858001a1fb05e7e80005c649e847f05cd8a44296111233eb929828fe3cda",
+          "sha256": "3d177f6d658b4ebbdbce8d9178b3082b2e8d7945a60d3bee87eb79003dedf33f",
+          "sha1": "600495686f3542d195f0a539a5705b871fefdd0a",
+          "md5": "0c87b30a289f40aab54bca591297fd08"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "typho_publish-1.0.4-sources.jar",
+          "url": "typho_publish-1.0.4-sources.jar",
+          "size": 1503,
+          "sha512": "6817f668047c66238a2ad29883b782a1f47350da63af653a9b2059e0c06d534c7ee85a80d309a33e172689bc84278132d3b8c92f76db27520c27619d54389284",
+          "sha256": "0a575580dd93b1773b72dd1a60ad5ed9f41ba1f976c9e10b9eb95190f21c2edc",
+          "sha1": "301ca62c536be01b1cb5343d1d8957bfc699ff1a",
+          "md5": "aaf776d770f78a2333c6a15fffd8c8e4"
+        }
+      ]
+    }
+  ]
+}
