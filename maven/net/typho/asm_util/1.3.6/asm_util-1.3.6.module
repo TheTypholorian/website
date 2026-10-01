@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "asm_util",
+    "version": "1.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asm_util-1.3.6.jar",
+          "url": "asm_util-1.3.6.jar",
+          "size": 128349,
+          "sha512": "b1fc13b79a909369a3738fe87d9153d91163d50c100ee6759aa253a9ca89e1eadb700b1e652ec6fa3c097e57cb3fb0c11ad58a6beb5e855819ce0804c5120c12",
+          "sha256": "b1faa0b17592ba582be29b3221293fd1f3cfc328c4ef76220ab16ea52f05af9c",
+          "sha1": "6578357f558c77300c605e5ad0e4046aff91c0a0",
+          "md5": "efcea6b6f537f8246437b5d7aef7cd66"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-metadata-jvm",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asm_util-1.3.6.jar",
+          "url": "asm_util-1.3.6.jar",
+          "size": 128349,
+          "sha512": "b1fc13b79a909369a3738fe87d9153d91163d50c100ee6759aa253a9ca89e1eadb700b1e652ec6fa3c097e57cb3fb0c11ad58a6beb5e855819ce0804c5120c12",
+          "sha256": "b1faa0b17592ba582be29b3221293fd1f3cfc328c4ef76220ab16ea52f05af9c",
+          "sha1": "6578357f558c77300c605e5ad0e4046aff91c0a0",
+          "md5": "efcea6b6f537f8246437b5d7aef7cd66"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asm_util-1.3.6-sources.jar",
+          "url": "asm_util-1.3.6-sources.jar",
+          "size": 26355,
+          "sha512": "ee20eeedc304ca51da5ccbf16e1bf6fd2bdfe7d0fdff3d7215bf78df51c229795b5770ec199ea742c748ca6360f5914de6e5c1b63089e1d76d14c6a028da6ef1",
+          "sha256": "4f0ba0560884bdda3dd01bb08260a5a3e71df300e1bb8398e404fe54d0ea4dba",
+          "sha1": "eb34ac60db148acba529d418329119e2dbe9b0a1",
+          "md5": "b78f0d9e1634e315d541bbb03aeabfb5"
+        }
+      ]
+    }
+  ]
+}
