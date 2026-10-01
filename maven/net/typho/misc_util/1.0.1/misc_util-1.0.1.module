@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "misc_util",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "misc_util-1.0.1.jar",
+          "url": "misc_util-1.0.1.jar",
+          "size": 21054,
+          "sha512": "54a69a314f5a53ad7a9e9a4f99db8820e49778d148adc0ebf9aebc5671862cc85a0abee4c84043fad5ee096c758ceb259cd72bd1ec5576394632f0c122d25854",
+          "sha256": "c8e80614481bc7b04980072f77e7be121da2d1408507662a2d593039c77871d3",
+          "sha1": "9b0e59a704df9c6f3f3fea0fa7b7d9f30561ec57",
+          "md5": "c0086f92e8c9d72df2dda92f4a38ff91"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "misc_util-1.0.1.jar",
+          "url": "misc_util-1.0.1.jar",
+          "size": 21054,
+          "sha512": "54a69a314f5a53ad7a9e9a4f99db8820e49778d148adc0ebf9aebc5671862cc85a0abee4c84043fad5ee096c758ceb259cd72bd1ec5576394632f0c122d25854",
+          "sha256": "c8e80614481bc7b04980072f77e7be121da2d1408507662a2d593039c77871d3",
+          "sha1": "9b0e59a704df9c6f3f3fea0fa7b7d9f30561ec57",
+          "md5": "c0086f92e8c9d72df2dda92f4a38ff91"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "misc_util-1.0.1-sources.jar",
+          "url": "misc_util-1.0.1-sources.jar",
+          "size": 3046,
+          "sha512": "3dcffbba8ae61f54e07bf7428c12cbc1b303b5ef0be67d4b7d866d20347791406efa04a5d81dc7834c5c120df500b4e63be6da9e007d6b2033ff432ce56da6dc",
+          "sha256": "591b08f5d37a031fb2f04fddcddef88b33a9f9aebba7340210548e449e4d735b",
+          "sha1": "74a86bee0946bd6e0f70a261e91f798f5cc26a04",
+          "md5": "73fc70f8d833e5111c2fe9cdbed8cc33"
+        }
+      ]
+    }
+  ]
+}
