@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "net.typho",
-    "module": "ide_data",
+    "module": "crucible.ide_data",
     "version": "1.0.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -36,13 +36,13 @@
       ],
       "files": [
         {
-          "name": "ide_data-1.0.0.jar",
-          "url": "ide_data-1.0.0.jar",
-          "size": 17264,
-          "sha512": "ac17ea30cf5cf1aef2bcc896feeb8edfebf2ffd2ce3c3e6105fca343172c78faf84c8eb77470f08c7d5f12cbbb4ff66c08d3e11c0886477031938edf9544d161",
-          "sha256": "c7d02913985288a5c21a8441d73de0acc6fd316dab2807263f64a371efa34d51",
-          "sha1": "1aea2da4f65fcfc393a7c45b4a8fc0b11befb19f",
-          "md5": "a76fff600f1aadc5f78fab76ad39dd0b"
+          "name": "crucible.ide_data-1.0.0.jar",
+          "url": "crucible.ide_data-1.0.0.jar",
+          "size": 17324,
+          "sha512": "cec2f4ee877d3cc77a8e174ab2741f1abc9c79cbad01823866325e75e749e42448fa8a41b5f84fbbe150e9e15dc067ec6ee753eb7bb15ccf15ea58fa9ded71ef",
+          "sha256": "d630f0901c285dc56f9ff9ab1b5a6f0dd9273012853191825b436f90ba797228",
+          "sha1": "04bc4b1de7392cd813be7e632857cc78226e9d4d",
+          "md5": "0a24637f5bca15e0cbb400fb0f3b7799"
         }
       ]
     },
@@ -75,13 +75,13 @@
       ],
       "files": [
         {
-          "name": "ide_data-1.0.0.jar",
-          "url": "ide_data-1.0.0.jar",
-          "size": 17264,
-          "sha512": "ac17ea30cf5cf1aef2bcc896feeb8edfebf2ffd2ce3c3e6105fca343172c78faf84c8eb77470f08c7d5f12cbbb4ff66c08d3e11c0886477031938edf9544d161",
-          "sha256": "c7d02913985288a5c21a8441d73de0acc6fd316dab2807263f64a371efa34d51",
-          "sha1": "1aea2da4f65fcfc393a7c45b4a8fc0b11befb19f",
-          "md5": "a76fff600f1aadc5f78fab76ad39dd0b"
+          "name": "crucible.ide_data-1.0.0.jar",
+          "url": "crucible.ide_data-1.0.0.jar",
+          "size": 17324,
+          "sha512": "cec2f4ee877d3cc77a8e174ab2741f1abc9c79cbad01823866325e75e749e42448fa8a41b5f84fbbe150e9e15dc067ec6ee753eb7bb15ccf15ea58fa9ded71ef",
+          "sha256": "d630f0901c285dc56f9ff9ab1b5a6f0dd9273012853191825b436f90ba797228",
+          "sha1": "04bc4b1de7392cd813be7e632857cc78226e9d4d",
+          "md5": "0a24637f5bca15e0cbb400fb0f3b7799"
         }
       ]
     },
@@ -95,8 +95,8 @@
       },
       "files": [
         {
-          "name": "ide_data-1.0.0-sources.jar",
-          "url": "ide_data-1.0.0-sources.jar",
+          "name": "crucible.ide_data-1.0.0-sources.jar",
+          "url": "crucible.ide_data-1.0.0-sources.jar",
           "size": 1883,
           "sha512": "ffcb0f7b7a47858baab9d9b649efcf13281da1454b2ce44654459416ef104ff1766fa2081568c6d58739f506704257ba365c6afaa62356566dd75a0d8d59ad91",
           "sha256": "46ed9de2ede7a90e89802aaf330e8e18ce01894921d7dfb3d683f9552c945579",
