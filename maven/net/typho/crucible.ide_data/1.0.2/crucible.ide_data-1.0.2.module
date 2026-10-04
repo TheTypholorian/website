@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "crucible.ide_data",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.ide_data-1.0.2.jar",
+          "url": "crucible.ide_data-1.0.2.jar",
+          "size": 17217,
+          "sha512": "61fb886df08154fc4259ae03ea1a54382862ec8d869bab980a9fbf2eb9c4211004960582a6aa12baeed16f597c411842d38e7d626d4bce8c343ab4f55787ae0a",
+          "sha256": "cab77a3ec261f8dcff1da5c19038a57ae55cad8dd0df90bda29d10ef6caa75ed",
+          "sha1": "a3dae1f1d47e1a482c3f1911da4386efad8aae54",
+          "md5": "d3717abbbcd4460b9bd996cfe0d22299"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.typho",
+          "module": "data_util",
+          "version": {
+            "requires": "1.3.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.ide_data-1.0.2.jar",
+          "url": "crucible.ide_data-1.0.2.jar",
+          "size": 17217,
+          "sha512": "61fb886df08154fc4259ae03ea1a54382862ec8d869bab980a9fbf2eb9c4211004960582a6aa12baeed16f597c411842d38e7d626d4bce8c343ab4f55787ae0a",
+          "sha256": "cab77a3ec261f8dcff1da5c19038a57ae55cad8dd0df90bda29d10ef6caa75ed",
+          "sha1": "a3dae1f1d47e1a482c3f1911da4386efad8aae54",
+          "md5": "d3717abbbcd4460b9bd996cfe0d22299"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crucible.ide_data-1.0.2-sources.jar",
+          "url": "crucible.ide_data-1.0.2-sources.jar",
+          "size": 2216,
+          "sha512": "745a15bd126d0a197ae4b705abd50d6cb734dd83fc1decb8b45a11978be9562431fd3217816ab2cd696529363aaf791fb2f2b232060bcd308acc09f1d9a4e76f",
+          "sha256": "1659733436b7460613e6bed14b830827be758772328af0ec9ca6ce112eff5922",
+          "sha1": "41a78a99358e4f3bfcc626fd4780d82689a3f356",
+          "md5": "0072b702b1e26b3a044f6a3a7ba08869"
+        }
+      ]
+    }
+  ]
+}
