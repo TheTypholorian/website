@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "crucible.rmi",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.rmi-1.1.0.jar",
+          "url": "crucible.rmi-1.1.0.jar",
+          "size": 4492,
+          "sha512": "2bee1be4ad17b8dc7f3c9781056a50c4a674d04176e9f47cd4b05c7992c46ec64334cfdfbb80f247d8b0ae79915e0b0361b2937c2969474529718d30b123179b",
+          "sha256": "488ec1d86a00f29c2715c838cc32ab948487f92e176a8f512caa1c9e1487f7a1",
+          "sha1": "a993aa28c4ea928b4af09593d7e900e314567d59",
+          "md5": "01bdf2c0d8496d7da791965f83844b3a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.typho",
+          "module": "crucible.ide_data",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.rmi-1.1.0.jar",
+          "url": "crucible.rmi-1.1.0.jar",
+          "size": 4492,
+          "sha512": "2bee1be4ad17b8dc7f3c9781056a50c4a674d04176e9f47cd4b05c7992c46ec64334cfdfbb80f247d8b0ae79915e0b0361b2937c2969474529718d30b123179b",
+          "sha256": "488ec1d86a00f29c2715c838cc32ab948487f92e176a8f512caa1c9e1487f7a1",
+          "sha1": "a993aa28c4ea928b4af09593d7e900e314567d59",
+          "md5": "01bdf2c0d8496d7da791965f83844b3a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crucible.rmi-1.1.0-sources.jar",
+          "url": "crucible.rmi-1.1.0-sources.jar",
+          "size": 1655,
+          "sha512": "82519caf1f15953ba69533b8ecf11248efa0a4defd341e0e1f15f12090d92f15cae001c31a65b6f9eb6eb9ab01d53e2aee2cb9180297477b89948f69ad2527c4",
+          "sha256": "2925675d2e862f47581fb2451d92ca0511639b5164493f66dff05618e0466d67",
+          "sha1": "d373752030369532c2e7d5544d5168bba40654e3",
+          "md5": "18c35ac38f4f44d2c146393c2159f250"
+        }
+      ]
+    }
+  ]
+}
