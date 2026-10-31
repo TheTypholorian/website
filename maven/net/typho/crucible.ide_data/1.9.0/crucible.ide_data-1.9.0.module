@@ -39,10 +39,10 @@
           "name": "crucible.ide_data-1.9.0.jar",
           "url": "crucible.ide_data-1.9.0.jar",
           "size": 20867,
-          "sha512": "ab04f2aca1cdde6d06c9137bf897247ae37a79de3f22ac3a90ff5910b63f889ebe08ccf1b9173c766af3bd5c45f5f238494859ab204eab53ac9b815b99304ac5",
-          "sha256": "2776ffc0d120f78c6ad7fdca1a2ad858b1d72bd6bc8fcccddd12c64c58012242",
-          "sha1": "782dcb82eb512f4d967a739509e2215b8daa02e4",
-          "md5": "6680c686463269eb44103d652858f537"
+          "sha512": "39a21f08126d03052272a4593ea6370489d0f4c33e9b3addc56a5fa707e12b56d0c11a0c68b6dd580550e846a9badc6f164acce02dfcb9de6a9bf7a6bd8954bb",
+          "sha256": "7787b8d23ff78632a761afd18d9dd171faae9a4515455783536684a56791e982",
+          "sha1": "4823eced9ae973c3d3afa75d946c2514e605f13b",
+          "md5": "909857dea12beae0fae7397006b4304f"
         }
       ]
     },
@@ -78,10 +78,10 @@
           "name": "crucible.ide_data-1.9.0.jar",
           "url": "crucible.ide_data-1.9.0.jar",
           "size": 20867,
-          "sha512": "ab04f2aca1cdde6d06c9137bf897247ae37a79de3f22ac3a90ff5910b63f889ebe08ccf1b9173c766af3bd5c45f5f238494859ab204eab53ac9b815b99304ac5",
-          "sha256": "2776ffc0d120f78c6ad7fdca1a2ad858b1d72bd6bc8fcccddd12c64c58012242",
-          "sha1": "782dcb82eb512f4d967a739509e2215b8daa02e4",
-          "md5": "6680c686463269eb44103d652858f537"
+          "sha512": "39a21f08126d03052272a4593ea6370489d0f4c33e9b3addc56a5fa707e12b56d0c11a0c68b6dd580550e846a9badc6f164acce02dfcb9de6a9bf7a6bd8954bb",
+          "sha256": "7787b8d23ff78632a761afd18d9dd171faae9a4515455783536684a56791e982",
+          "sha1": "4823eced9ae973c3d3afa75d946c2514e605f13b",
+          "md5": "909857dea12beae0fae7397006b4304f"
         }
       ]
     },
@@ -98,10 +98,10 @@
           "name": "crucible.ide_data-1.9.0-sources.jar",
           "url": "crucible.ide_data-1.9.0-sources.jar",
           "size": 3381,
-          "sha512": "0f675a41bc4a9ce15b7b4c969d122c51122485193b4fe7b72bb4f8c7421579066c134202a62fb06503cc2fc2e2c430b931051cf3d2a577225792302819d66228",
-          "sha256": "d579ad7be3ce9c51461df89d26d49c2b62bf827485072594c0c554680e0a290e",
-          "sha1": "7981190f8ca4332a9bbbaf0904497f04a90afc36",
-          "md5": "b7596649f78baa5bcea2cf498ae55513"
+          "sha512": "9f727d9cdd41a74a7fc369534939326a179d06ea9d68a1231b87fd2e450513768bcfff656c69e8176a2df5dfe4c55f73135b0cde138fb8c39fca83bf0ccf85c5",
+          "sha256": "7ea96b8cda8cdd80172dd29852258cdc0e02f020130eb7011c40e46a30d3707a",
+          "sha1": "dc805819beffce1b3ae7ee1bd7243d53199514d7",
+          "md5": "a7334b7501e22a9f05892ab2be091958"
         }
       ]
     }
