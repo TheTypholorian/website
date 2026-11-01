@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "maven_util",
+    "version": "1.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "maven_util-1.3.1.jar",
+          "url": "maven_util-1.3.1.jar",
+          "size": 43683,
+          "sha512": "2923fcfc7c8467a21a1ac7e3c16b99366a34ec007713b28218124e5014a996556c0a0b05477dd276bf8b361593c43521d4e23846100a6e3c75dc45afe72c7751",
+          "sha256": "41eb322394e5935f046cdb606d5c1cf67691f221722335b6790016e9e20f9c90",
+          "sha1": "b5c30797514e1d0418f357ab8dc74434db8e4bbd",
+          "md5": "57fc2e3b9fc226754446879f635d22b3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.typho",
+          "module": "data_util",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "maven_util-1.3.1.jar",
+          "url": "maven_util-1.3.1.jar",
+          "size": 43683,
+          "sha512": "2923fcfc7c8467a21a1ac7e3c16b99366a34ec007713b28218124e5014a996556c0a0b05477dd276bf8b361593c43521d4e23846100a6e3c75dc45afe72c7751",
+          "sha256": "41eb322394e5935f046cdb606d5c1cf67691f221722335b6790016e9e20f9c90",
+          "sha1": "b5c30797514e1d0418f357ab8dc74434db8e4bbd",
+          "md5": "57fc2e3b9fc226754446879f635d22b3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "maven_util-1.3.1-sources.jar",
+          "url": "maven_util-1.3.1-sources.jar",
+          "size": 5751,
+          "sha512": "700493b791db56655844e1d26f1d466204a2c457043e1474de0768d5291aecf5fd20d95941988e046e79cf426c67765e821e812abfd36db000b7fcf5ade03611",
+          "sha256": "968670a8e66692f4f93b85179128875f9724912269cbc0aed4bcf993db4d8bba",
+          "sha1": "3de57e4aa39b06bb20b0dad8baafb0affeffdc68",
+          "md5": "750681f62235314026a1f902d27c34c5"
+        }
+      ]
+    }
+  ]
+}
