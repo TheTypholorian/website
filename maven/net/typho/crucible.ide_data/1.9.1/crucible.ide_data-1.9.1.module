@@ -38,11 +38,11 @@
         {
           "name": "crucible.ide_data-1.9.1.jar",
           "url": "crucible.ide_data-1.9.1.jar",
-          "size": 30677,
-          "sha512": "9ead097fd4ea1269bc1ae4cb6bcef94dde28eeece12ba163e8981ab24eefcd4d33bbbf8122dc39e312e5b5c7fc86a611b61998d63e9ce5275afcb84686629ca2",
-          "sha256": "aab155a4a09f292f174782ca387951bc1ce00645925de79ce83a227ce8181d42",
-          "sha1": "f69b1475bec1c4e360a9068ec10a85bbb3ebdb45",
-          "md5": "d1fd03d14811ea5f19c79482d6bd1b09"
+          "size": 30676,
+          "sha512": "4f0dd0f92332f727bcd26400865e2cccb2b34538e9e0ef367feec73b3bdddfda10013def67c727385f2de4d5a736bd7fa576c41359123774ecb3c47d1d2707b4",
+          "sha256": "326ed9c20404ce8b2209070d32660e7a62f7bf494c06876e602812791dc2df7c",
+          "sha1": "eb7df8d0d5e128cfcc7daf93d5ec2eb8f59b43c0",
+          "md5": "51a436979abc7d069783a9c7bfcfd83b"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "crucible.ide_data-1.9.1.jar",
           "url": "crucible.ide_data-1.9.1.jar",
-          "size": 30677,
-          "sha512": "9ead097fd4ea1269bc1ae4cb6bcef94dde28eeece12ba163e8981ab24eefcd4d33bbbf8122dc39e312e5b5c7fc86a611b61998d63e9ce5275afcb84686629ca2",
-          "sha256": "aab155a4a09f292f174782ca387951bc1ce00645925de79ce83a227ce8181d42",
-          "sha1": "f69b1475bec1c4e360a9068ec10a85bbb3ebdb45",
-          "md5": "d1fd03d14811ea5f19c79482d6bd1b09"
+          "size": 30676,
+          "sha512": "4f0dd0f92332f727bcd26400865e2cccb2b34538e9e0ef367feec73b3bdddfda10013def67c727385f2de4d5a736bd7fa576c41359123774ecb3c47d1d2707b4",
+          "sha256": "326ed9c20404ce8b2209070d32660e7a62f7bf494c06876e602812791dc2df7c",
+          "sha1": "eb7df8d0d5e128cfcc7daf93d5ec2eb8f59b43c0",
+          "md5": "51a436979abc7d069783a9c7bfcfd83b"
         }
       ]
     },
@@ -97,11 +97,11 @@
         {
           "name": "crucible.ide_data-1.9.1-sources.jar",
           "url": "crucible.ide_data-1.9.1-sources.jar",
-          "size": 3883,
-          "sha512": "9770ae7faf53058d3583be44d951dff8d1321d8fadb6b56278039f10cbdd9e6a011c251f010775773c684808876e0ce5933284d0c3ba81ee0bd23a69f9d45140",
-          "sha256": "616bffd312e543fe67135c6aa4a02bb385e862f8440091dd564bf40a28a2571c",
-          "sha1": "a2c57d885b45812084724021fc03ec71ecd5a21d",
-          "md5": "7ebca87154c26cc760e3df113bede6c2"
+          "size": 3882,
+          "sha512": "a4617602f097efaedf6ed28e0e084891f46a264c3c6c6bd6867a4e2aaebcb323743a995f20dd1e1311d3c915d753c5f08a71f00618060594ef90a05f1585f1ae",
+          "sha256": "0b603c0fd557ccc600c56b5609d074cb198c900a11d888d52ef58de322ea066c",
+          "sha1": "56249958a69161d5c2ec546af9579574713bfaeb",
+          "md5": "5508e7c4fe25d6453ada5937c5558629"
         }
       ]
     }
