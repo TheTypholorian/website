@@ -38,11 +38,11 @@
         {
           "name": "crucible.ide_data-1.9.1.jar",
           "url": "crucible.ide_data-1.9.1.jar",
-          "size": 30676,
-          "sha512": "4f0dd0f92332f727bcd26400865e2cccb2b34538e9e0ef367feec73b3bdddfda10013def67c727385f2de4d5a736bd7fa576c41359123774ecb3c47d1d2707b4",
-          "sha256": "326ed9c20404ce8b2209070d32660e7a62f7bf494c06876e602812791dc2df7c",
-          "sha1": "eb7df8d0d5e128cfcc7daf93d5ec2eb8f59b43c0",
-          "md5": "51a436979abc7d069783a9c7bfcfd83b"
+          "size": 30798,
+          "sha512": "d1cd1e6f0ba074fdfd456a6915158dfc681bad14dd134e2b54d3636b41e1ce50afccadf5136633d98d6715bf6d7bbff298b3de093a305d1bfaf3184a60f0037d",
+          "sha256": "6f57772d142e65a747226991333e3d8012b7946ccb69e07c420496c340684038",
+          "sha1": "5df6044cb0de5746667000f977ba11ac073a332b",
+          "md5": "cb10e5d25778d6c78dc1508326dab8cf"
         }
       ]
     },
@@ -62,7 +62,7 @@
           "group": "net.typho",
           "module": "data_util",
           "version": {
-            "requires": "2.3.7"
+            "requires": "2.4.0"
           }
         },
         {
@@ -77,11 +77,11 @@
         {
           "name": "crucible.ide_data-1.9.1.jar",
           "url": "crucible.ide_data-1.9.1.jar",
-          "size": 30676,
-          "sha512": "4f0dd0f92332f727bcd26400865e2cccb2b34538e9e0ef367feec73b3bdddfda10013def67c727385f2de4d5a736bd7fa576c41359123774ecb3c47d1d2707b4",
-          "sha256": "326ed9c20404ce8b2209070d32660e7a62f7bf494c06876e602812791dc2df7c",
-          "sha1": "eb7df8d0d5e128cfcc7daf93d5ec2eb8f59b43c0",
-          "md5": "51a436979abc7d069783a9c7bfcfd83b"
+          "size": 30798,
+          "sha512": "d1cd1e6f0ba074fdfd456a6915158dfc681bad14dd134e2b54d3636b41e1ce50afccadf5136633d98d6715bf6d7bbff298b3de093a305d1bfaf3184a60f0037d",
+          "sha256": "6f57772d142e65a747226991333e3d8012b7946ccb69e07c420496c340684038",
+          "sha1": "5df6044cb0de5746667000f977ba11ac073a332b",
+          "md5": "cb10e5d25778d6c78dc1508326dab8cf"
         }
       ]
     },
@@ -97,11 +97,11 @@
         {
           "name": "crucible.ide_data-1.9.1-sources.jar",
           "url": "crucible.ide_data-1.9.1-sources.jar",
-          "size": 3882,
-          "sha512": "a4617602f097efaedf6ed28e0e084891f46a264c3c6c6bd6867a4e2aaebcb323743a995f20dd1e1311d3c915d753c5f08a71f00618060594ef90a05f1585f1ae",
-          "sha256": "0b603c0fd557ccc600c56b5609d074cb198c900a11d888d52ef58de322ea066c",
-          "sha1": "56249958a69161d5c2ec546af9579574713bfaeb",
-          "md5": "5508e7c4fe25d6453ada5937c5558629"
+          "size": 3795,
+          "sha512": "b21cdfcddc7f45870e5448b531e5236dc7bf5367c234097e3a0021118f8689e6c0f354d9f6f072f897a2350558b98d545b1747817ca4d4b6fd76b1d4b8c8b7a1",
+          "sha256": "6e8ba57d44be6c21a5b89d0f1167ba959543fef888cfa06d2e24680137442cc5",
+          "sha1": "3f41c0c9d600634bb37cd42ff93d1d72ecd966c3",
+          "md5": "afabd156634667357a05516c08707677"
         }
       ]
     }

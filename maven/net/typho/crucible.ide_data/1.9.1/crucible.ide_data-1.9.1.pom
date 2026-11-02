@@ -19,7 +19,7 @@
     <dependency>
       <groupId>net.typho</groupId>
       <artifactId>data_util</artifactId>
-      <version>2.3.7</version>
+      <version>2.4.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
