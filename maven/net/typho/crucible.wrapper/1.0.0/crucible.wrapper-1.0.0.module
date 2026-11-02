@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "crucible.wrapper",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.wrapper-1.0.0.jar",
+          "url": "crucible.wrapper-1.0.0.jar",
+          "size": 6014556,
+          "sha512": "5db21bcaa67512f7a7ba0d5650b3f4a5ada5bf676e49e7578a3f48837e6d67953272ad6dfbc2dd135c39f3b98301b4d75318b19f8f3f9e839b3f2aa101828650",
+          "sha256": "c276c4b2dbae6998f7f66800cd69ff4ce3dea9c1be8802a6f7818d5b4324630b",
+          "sha1": "f2be61672d56e4cc80ed0d86221912b984a15adf",
+          "md5": "54533f4908e9150ea0a6e9614246e42f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.typho",
+          "module": "maven_util",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "net.typho",
+          "module": "misc_util",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "net.typho",
+          "module": "data_util",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.wrapper-1.0.0.jar",
+          "url": "crucible.wrapper-1.0.0.jar",
+          "size": 6014556,
+          "sha512": "5db21bcaa67512f7a7ba0d5650b3f4a5ada5bf676e49e7578a3f48837e6d67953272ad6dfbc2dd135c39f3b98301b4d75318b19f8f3f9e839b3f2aa101828650",
+          "sha256": "c276c4b2dbae6998f7f66800cd69ff4ce3dea9c1be8802a6f7818d5b4324630b",
+          "sha1": "f2be61672d56e4cc80ed0d86221912b984a15adf",
+          "md5": "54533f4908e9150ea0a6e9614246e42f"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crucible.wrapper-1.0.0.jar",
+          "url": "crucible.wrapper-1.0.0.jar",
+          "size": 6014556,
+          "sha512": "5db21bcaa67512f7a7ba0d5650b3f4a5ada5bf676e49e7578a3f48837e6d67953272ad6dfbc2dd135c39f3b98301b4d75318b19f8f3f9e839b3f2aa101828650",
+          "sha256": "c276c4b2dbae6998f7f66800cd69ff4ce3dea9c1be8802a6f7818d5b4324630b",
+          "sha1": "f2be61672d56e4cc80ed0d86221912b984a15adf",
+          "md5": "54533f4908e9150ea0a6e9614246e42f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crucible.wrapper-1.0.0-sources.jar",
+          "url": "crucible.wrapper-1.0.0-sources.jar",
+          "size": 4342,
+          "sha512": "e230221667b48c772ba18ac2078e07f39e440cc85c657a5b87d04efbee30adad8cff79a2c3f70e460e997e8a26651a9296db05c3a72e6d9cb97b0b5b125bfb46",
+          "sha256": "114def40315d25d90652edc7c714359c45e2cf7b47caf89ab105b916a9718313",
+          "sha1": "889c91e083a3f8e6d609fd02b3089d77302b3ce0",
+          "md5": "01c214874c0cc04fee1966c3e4383898"
+        }
+      ]
+    }
+  ]
+}
