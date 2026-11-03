@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "crucible.wrapper",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.wrapper-1.2.3.jar",
+          "url": "crucible.wrapper-1.2.3.jar",
+          "size": 6123136,
+          "sha512": "3f7cd2408677252621282b02f9f809baa9a9d7f4b95d0d61b4fbfea9041107d56133c8b620ef80ec3da8f4a5bbef55b9348332cec30876a75b6171ae13b2ae58",
+          "sha256": "8c4e1176292fc8d57663f655c04bcfdb2393cc9f8ebdb910fb0e8de39a0e1dc3",
+          "sha1": "dddfc9ccbd95d39d171b28566d66d5a651b097c4",
+          "md5": "e8fa81d0c114c01f989a95370fc0a47e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.typho",
+          "module": "maven_util",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crucible.wrapper-1.2.3.jar",
+          "url": "crucible.wrapper-1.2.3.jar",
+          "size": 6123136,
+          "sha512": "3f7cd2408677252621282b02f9f809baa9a9d7f4b95d0d61b4fbfea9041107d56133c8b620ef80ec3da8f4a5bbef55b9348332cec30876a75b6171ae13b2ae58",
+          "sha256": "8c4e1176292fc8d57663f655c04bcfdb2393cc9f8ebdb910fb0e8de39a0e1dc3",
+          "sha1": "dddfc9ccbd95d39d171b28566d66d5a651b097c4",
+          "md5": "e8fa81d0c114c01f989a95370fc0a47e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crucible.wrapper-1.2.3.jar",
+          "url": "crucible.wrapper-1.2.3.jar",
+          "size": 6123136,
+          "sha512": "3f7cd2408677252621282b02f9f809baa9a9d7f4b95d0d61b4fbfea9041107d56133c8b620ef80ec3da8f4a5bbef55b9348332cec30876a75b6171ae13b2ae58",
+          "sha256": "8c4e1176292fc8d57663f655c04bcfdb2393cc9f8ebdb910fb0e8de39a0e1dc3",
+          "sha1": "dddfc9ccbd95d39d171b28566d66d5a651b097c4",
+          "md5": "e8fa81d0c114c01f989a95370fc0a47e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crucible.wrapper-1.2.3-sources.jar",
+          "url": "crucible.wrapper-1.2.3-sources.jar",
+          "size": 4694,
+          "sha512": "9283b05623b08fccc78260e8096bae95d628942ccc0883d8946afd9abd4b658d8e8e941e606b67aef3641405db966f7fc9da2ce5c09a0b8e066c013f4669a62d",
+          "sha256": "acd50a8fbbcf54723cdfe14f784e50a48b7332da84013878bc2666fc6cdaebc3",
+          "sha1": "be7a40af2cd700cb439c84d3dd40cddaffc44f54",
+          "md5": "a4f4a671d182de68b5944e6f25f27140"
+        }
+      ]
+    }
+  ]
+}
