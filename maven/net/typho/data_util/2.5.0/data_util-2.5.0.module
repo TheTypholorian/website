@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "data_util",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data_util-2.5.0.jar",
+          "url": "data_util-2.5.0.jar",
+          "size": 233114,
+          "sha512": "e8c63cbcfea5d32eb500ada3b26314c370d82f8dd0056ee31383caa2dc72d4ed58a3bbf8568fe4bbbed6084c140f09bf40c9784ff67954ee2811d8d9a733beb5",
+          "sha256": "0b4571670cb54cc59b44c0807a243b23c3dc79d413bf4dae48dc9c8ba34aa14c",
+          "sha1": "d86a428f4036641e40246f6bcdccbcd6f4c3b0f0",
+          "md5": "becc11405534e5e6eb05bfeeeb522059"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "net.typho",
+          "module": "parsing_util",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data_util-2.5.0.jar",
+          "url": "data_util-2.5.0.jar",
+          "size": 233114,
+          "sha512": "e8c63cbcfea5d32eb500ada3b26314c370d82f8dd0056ee31383caa2dc72d4ed58a3bbf8568fe4bbbed6084c140f09bf40c9784ff67954ee2811d8d9a733beb5",
+          "sha256": "0b4571670cb54cc59b44c0807a243b23c3dc79d413bf4dae48dc9c8ba34aa14c",
+          "sha1": "d86a428f4036641e40246f6bcdccbcd6f4c3b0f0",
+          "md5": "becc11405534e5e6eb05bfeeeb522059"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "data_util-2.5.0-sources.jar",
+          "url": "data_util-2.5.0-sources.jar",
+          "size": 37591,
+          "sha512": "e6436d9bad9cdbec7a5d0f4c521aab7f4e2b36232d75d8fd8523992996b2261246cd31dfc1bb3e53281ba2cd717c95d44134739f01c9f835dd68dda761514d16",
+          "sha256": "79e53ce9ccbaf4e53408c218c40ddcd07abee4b3e05174647a21a6667488a56a",
+          "sha1": "c79b51999475795095002e22a32ec8c18e146439",
+          "md5": "ae64c9c62883228c0d02883538cbfbe5"
+        }
+      ]
+    }
+  ]
+}
