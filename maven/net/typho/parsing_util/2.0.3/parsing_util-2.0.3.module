@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "parsing_util",
+    "version": "2.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parsing_util-2.0.3.jar",
+          "url": "parsing_util-2.0.3.jar",
+          "size": 37994,
+          "sha512": "b114a88fe55b4a7810fe6bbafdc4a9b7969c5893b56745c8f7c80930feb17bdd9306df64524d975af188150c7e940d8c987d56206d23188df977c698083eca0f",
+          "sha256": "9d92b94bf21afc42aef283500ead97041ef3ae4caf439586cd79fb6dc02f69fe",
+          "sha1": "ba4ddb86cad745370bf31a36ff2a0aa62695867d",
+          "md5": "ccc2be68d393bb10e473dc1fa837f5cb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "parsing_util-2.0.3.jar",
+          "url": "parsing_util-2.0.3.jar",
+          "size": 37994,
+          "sha512": "b114a88fe55b4a7810fe6bbafdc4a9b7969c5893b56745c8f7c80930feb17bdd9306df64524d975af188150c7e940d8c987d56206d23188df977c698083eca0f",
+          "sha256": "9d92b94bf21afc42aef283500ead97041ef3ae4caf439586cd79fb6dc02f69fe",
+          "sha1": "ba4ddb86cad745370bf31a36ff2a0aa62695867d",
+          "md5": "ccc2be68d393bb10e473dc1fa837f5cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "parsing_util-2.0.3-sources.jar",
+          "url": "parsing_util-2.0.3-sources.jar",
+          "size": 7173,
+          "sha512": "2a1a717113d42c6c93618b6dcac11c5a195736b84b610fde74a2fd61009eb26d7fbe5dfdc50d65a7802504da4fd8636e5c6cbc94fde8407502e7618169cc3614",
+          "sha256": "d9b3845180320412622084045009dcd1abdecfe410617ee3ecd6f01ebdcfa4e5",
+          "sha1": "77e427a25535dfc27b03cff1873c12c2a5295813",
+          "md5": "562d674d48644c0bcdf17fcfa589df0f"
+        }
+      ]
+    }
+  ]
+}
