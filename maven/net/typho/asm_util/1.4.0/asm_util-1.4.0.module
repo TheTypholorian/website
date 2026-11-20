@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.typho",
+    "module": "asm_util",
+    "version": "1.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asm_util-1.4.0.jar",
+          "url": "asm_util-1.4.0.jar",
+          "size": 127910,
+          "sha512": "bf77d79b992b1527327beb0c282c9da76f62da568068411f44b9a48c04c1c02220db80219c919e17212c8b8a00ba099352567f8f8a2a740597ed3ca24967fbec",
+          "sha256": "b6a5ffeb6bca2a67901d662024b389cbfbc3cfc54295d1c4cdefd2dad2fa3a2d",
+          "sha1": "411e070d3e7bee751261bda5a98f4c06f4ad9378",
+          "md5": "efb2c8f66aa183059b2783dd70c8b14e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.11.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.11.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.11.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-metadata-jvm"
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-metadata-jvm",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asm_util-1.4.0.jar",
+          "url": "asm_util-1.4.0.jar",
+          "size": 127910,
+          "sha512": "bf77d79b992b1527327beb0c282c9da76f62da568068411f44b9a48c04c1c02220db80219c919e17212c8b8a00ba099352567f8f8a2a740597ed3ca24967fbec",
+          "sha256": "b6a5ffeb6bca2a67901d662024b389cbfbc3cfc54295d1c4cdefd2dad2fa3a2d",
+          "sha1": "411e070d3e7bee751261bda5a98f4c06f4ad9378",
+          "md5": "efb2c8f66aa183059b2783dd70c8b14e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asm_util-1.4.0-sources.jar",
+          "url": "asm_util-1.4.0-sources.jar",
+          "size": 26743,
+          "sha512": "da6fffe5cea3d4aef4ff3ceabe25698b84219638e0207d194e1fd73016bb5604abe03c017cf6796a0828d3601e5d388369a18dcb4a7843d32c7718f897ffa83b",
+          "sha256": "17e146cd54cef718563f74017d815f6a97a68c6e9ffbee6d8f8715b3776ebab7",
+          "sha1": "f3454badcb7c7ba34cc1ea0c7aee103e93405040",
+          "md5": "d984f7f1a3c5309b22571845d6d6fbaa"
+        }
+      ]
+    }
+  ]
+}
